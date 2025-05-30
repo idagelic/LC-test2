@@ -3,14 +3,24 @@
 /**
  * LC-test2 - A sample Node.js application
  * Main entry point for the application
+ * Refactored for improved modularity, error handling, and maintainability
  */
 
-function main() {
-    console.log('Welcome to LC-test2!');
-    console.log('This is a sample Node.js application.');
-    console.log('Current time:', new Date().toISOString());
+const AppService = require('./src/utils/appService');
+const Logger = require('./src/utils/logger');
+
+/**
+ * Main application entry point
+ * Handles application startup and error management
+ */
+async function main() {
+    try {
+        await AppService.run();
+    } catch (error) {
+        Logger.error('Application startup failed', error);
+        process.exit(1);
+    }
 }
 
-// Run the main function
+// Start the application
 main();
-

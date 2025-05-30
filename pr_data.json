@@ -1,0 +1,7 @@
+{
+  "title": "Add initial project structure",
+  "body": "This PR adds the basic project structure for LC-test2 including:\n\n- README.md with project documentation\n- package.json with Node.js configuration\n- index.js with main application logic\n\nThe project is now ready for development with proper documentation and configuration files.",
+  "head": "open-swe/e74415ff-f120-4e4d-b285-954e8b2583e2",
+  "base": "main"
+}
+

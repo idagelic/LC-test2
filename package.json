@@ -1,0 +1,19 @@
+{
+  "name": "lc-test2",
+  "version": "1.0.0",
+  "description": "A sample Node.js project created for demonstration purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "demo",
+    "sample"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
+
